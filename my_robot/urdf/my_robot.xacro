@@ -67,6 +67,7 @@
       <geometry>
         <box size=".4 .2 .1"/>
       </geometry>
+      <material name="Orange" />
     </visual>
 
 
@@ -124,6 +125,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05" />
       </geometry>
+      <material name="Blue" />
     </visual>
 
   </link>
@@ -152,6 +154,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05" />
       </geometry>
+      <material name="Blue"/>
     </visual>
 
   </link>
@@ -179,6 +182,7 @@
       <geometry>
 	<box size="0.05 0.05 0.05"/>
       </geometry>
+      <material name="Red"/>
     </visual>  
   </link>
 
@@ -204,9 +208,22 @@
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
         <mesh filename="package://my_robot/meshes/hokuyo.dae"/>
-      </geometry>      
+      </geometry>    
     </visual>
   </link>
+
+  <gazebo reference="camera">
+    <material>Gazebo/Red</material>
+  </gazebo>
+  <gazebo reference="right_wheel">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  <gazebo reference="left_wheel">
+    <material>Gazebo/Blue</material>
+  </gazebo>
+  <gazebo reference="chassis">
+    <material>Gazebo/Orange</material>
+  </gazebo>
 
 </robot>
 
