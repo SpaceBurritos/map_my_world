@@ -1,3 +1,4 @@
 # Where am I?
 
-This repository consist of a robot that can follow any source of white pixels
+Second project on the Robotic Software Engineer Nanodegree of Udacity
+Consisted on the implemantation of the AMCL package
