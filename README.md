@@ -13,7 +13,8 @@ __Steps to initialization__
   5. On another terminal go to cd /home/workspace
   6. And type roslaunch my_robot amcl.launch
 
-On RVIZ
+__On RVIZ__
  - Add Map topic/map
  - Add RobotModel
- - Add PoseArray/particlecloud
+ - Add PoseArray topic/particlecloud
+ - Use the 2v Nav Goal to make the robot move and see how it localizes itself.
