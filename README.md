@@ -21,8 +21,8 @@ __On RVIZ__
    
  Initialized Robot
  
- ![Initialized_robot](/img/Initialized_robot.png)
+ ![Initialized_robot](/img/Initialized_robot.PNG)
 
 Localized Robot
 
-![Localized Logo](/img/Localized_robot.png)
+![Localized Logo](/img/Localized_robot.PNG)
