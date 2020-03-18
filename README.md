@@ -17,4 +17,8 @@ __On RVIZ__
  - Add Map topic/map
  - Add RobotModel
  - Add PoseArray topic/particlecloud
- - Use the 2v Nav Goal to make the robot move and see how it localizes itself.
+ - Use the 2v Nav Goal to make the robot move and see how it localizes itself.  
+   
+ Initialized Robot
+ 
+ ![Initialized_robot](/img/initialized_robot.png)
