@@ -25,4 +25,4 @@ __On RVIZ__
 
 __Localized Robot__
 
-![Localized Logo](/img/Localized_robot.PNG)
+![Localized Logo](/img/Localized_Robot.PNG)
