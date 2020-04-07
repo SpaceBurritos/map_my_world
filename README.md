@@ -1,24 +1,24 @@
-# Where am I?
+# Map my World?
 
-Second project on the Robotic Software Engineer Nanodegree of Udacity.  
-Consisted on the implemantation of the AMCL package on a robot based on a given map
+Third project on the Robotic Software Engineer Nanodegree of Udacity.  
+Consisted on the implemantation of the rtabmap package for mapping on a given environment
 
 __Steps to initialization__  
   
-  1. Uncompress the file map.pgm.tar.gz located on the folder ~/where_am_i/my_robot/maps/ and make sure the  
-     the name  of the file is map.pgm
-  2. Go to cd /home/workspace
-  3. catkin_make
-  4. roslaunch my_robot world.launch
-  5. On another terminal go to cd /home/workspace
-  6. And type roslaunch my_robot amcl.launch
+  1. Go to cd /home/workspace
+  2. catkin_make
+  3. When finished, type source devel/setup.bash
+  3. roslaunch my_robot world.launch
+  4. On another terminal go to cd /home/workspace
+  5. Type source devel/setup.bash
+  5. And type roslaunch my_robot mapping.launch
+  6. On a third terminal, go to cd /home/workspace
+  7 Type source devel/setup.bash
+  8. And type rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
-__On RVIZ__
- - Add Map topic/map
- - Add RobotModel
- - Add PoseArray topic/particlecloud
- - Use the 2v Nav Goal to make the robot move and see how it localizes itself.  
-   
+This is the like to the rtabmap file:
+https://www.dropbox.com/s/yrx956wcn8ussmn/rtabmap.db?dl=0
+
  __Initialized Robot__
  
  ![Initialized_robot](/img/Initialized_robot.PNG)
