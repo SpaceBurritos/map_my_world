@@ -16,7 +16,7 @@ __Steps to initialization__
   7 Type source devel/setup.bash
   8. And type rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
-This is the like to the rtabmap file:
+This is the link to the rtabmap file: /n
 https://www.dropbox.com/s/yrx956wcn8ussmn/rtabmap.db?dl=0
 
  __Initialized Robot__
